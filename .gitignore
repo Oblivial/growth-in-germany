@@ -1,0 +1,13 @@
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+
+# Local virtual environments
+.venv/
+venv/
+
+# Local environment configuration
+.env
+
+# Generated pipeline outputs
+outputs/
