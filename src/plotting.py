@@ -8,7 +8,7 @@ import pandas as pd
 
 AXIS_CONFIG = {
     "xlabel": "Jahr",
-    "ylabel": "Veränderungsrate in %",
+    "ylabel": "Veränderungsrate in %, gemessen am Vorjahr",
 }
 
 DATASET_LABELS = {
@@ -59,6 +59,7 @@ def plot_growth_chart(
     ax.set(xlabel=AXIS_CONFIG["xlabel"], ylabel=AXIS_CONFIG["ylabel"], title=title)
     ax.axhline(0, color="red", linestyle="--", linewidth=0.7, alpha=0.5)
     ax.grid(True, linestyle="--", alpha=0.5)
+    ax.set_ylabel(AXIS_CONFIG["ylabel"], fontsize=9)
     ax.legend()
     if notes:
         figure.text(0.1, 0.03, "\n".join(notes), fontsize=9)
