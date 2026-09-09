@@ -8,6 +8,11 @@ This project processes German economic time series into annual growth-rate chart
 - World Bank: German GDP growth rates
 - WID: GDP and net national income series
 - GESIS / Heske: GDP series for the GDR (DDR)
+^ DESTATIS ^ World Bank ^ World Inequality Database ^ 
+| [[https://www.deutschland-in-daten.de/volkswirtschaftliche-gesamtrechnung/| Deutschland in Daten - Volkswirtschaftliche Gesamtrechnung]] (Aggregation der offiziellen Erhebungen der Ämter, ab 1950 mit Einschränkungen). | [[https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=DE| World Bank - GDP growth (annual %) - Germany]] (Country official statistics DESTATIS, OECD, Staff estimates). | [[https://wid.world/country/germany/| World Inequality Database - Germany]] (BIP-Daten im Indikator „Gross Domestic Product“ gehen zurück bis 1800, basierend auf dem [[https://www.rug.nl/ggdc/historicaldevelopment/maddison/?lang=en|Maddison Project]]). |
+
+^ Gerhard Heske (GESIS) ^ Walther G. Hoffmann (Histat) ^
+| [[https://search.gesis.org/research_data/ZA8208| GESIS - Macroeconomic Development in East Germany 1970-2000]] | [[https://histat.safe-frankfurt.de/index.php/de/project/tables/7662D0E2C2BA9055EA51D9EE8041C6E2| Histat - Das Deutsche Volkseinkommen 1851-1913]] |
 
 ## Setup
 
