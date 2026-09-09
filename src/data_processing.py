@@ -155,7 +155,7 @@ def process_targets_pipeline(
         outputs.append(str(path))
     if prepared:
         path = output_path / "combined_growth.png"
-        plot_growth_chart(prepared, "Deutschland - Zusammenfassung aller Datensätze", path, logger, dashed=True)
+        plot_growth_chart(prepared, "Deutschland - Zusammenfassung einiger Datensätze", path, logger, dashed=True)
         outputs.append(str(path))
 
     logger.info("Pipeline completed: %d files generated", len(outputs))
